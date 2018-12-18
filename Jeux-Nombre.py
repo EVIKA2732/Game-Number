@@ -2,7 +2,7 @@ import random
 
 numberofGuesses = 0
 number = random.randint(1,98)
-mika = {"Ce programme à était développer par [Dev]Aiden24"}
+[Dev]Aiden24 = {"Ce programme à était développer par [Dev]Aiden24"}
 
 name = raw_input("Bonjour quel est ton nom ? ")
 
