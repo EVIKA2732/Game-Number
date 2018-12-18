@@ -2,14 +2,14 @@ import random
 
 numberofGuesses = 0
 number = random.randint(1,98)
-[Dev]Aiden24 = {"Ce programme à était développer par [Dev]Aiden24"}
+Aiden = {"Ce programme Ã  Ã©tait dÃ©velopper par [Dev]Aiden24"}
 
 name = raw_input("Bonjour quel est ton nom ? ")
 
-print("Je pense a  un nombre entier entre 1 et 98. Pouvez-vous deviner ce que c'est ? ")
-raw_input ("Etes vous prêt ?")
+print("Je pense aÂ  un nombre entier entre 1 et 98. Pouvez-vous deviner ce que c'est ? ")
+raw_input ("Etes vous prÃªt ?")
 raw_input("Bon jeu ! ;)")
-print("Ce programme à était développer par [Dev]Aiden24")
+print("Ce programme Ã  Ã©tait dÃ©velopper par [Dev]Aiden24")
 
 while numberofGuesses < 98:
   guess = raw_input("Devinez le nombre")
@@ -35,8 +35,9 @@ while numberofGuesses < 98:
 
 if guess==number:
   numberofGuesses=str(numberofGuesses)
-  print("Bon travail! Tu à deviner le nombre en " + numberofGuesses + " fois :)")
+  print("Bon travail! Tu Ã  deviner le nombre en " + numberofGuesses + " fois :)")
 
 if guess!=number:
   number=str(number)
   print("Pardon. Le nombre auquel je pensais etait " + number + " :)")
+
